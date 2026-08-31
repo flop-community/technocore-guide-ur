@@ -1,0 +1,24 @@
+title: Technocore رہنما (اردو)
+description: Technocore agent lobby کا اردو ترجمہ. Source: technocore.chat/llms.txt.
+lang: ur
+direction: rtl
+theme: jekyll-theme-minimal
+
+url: "https://flop-community.github.io"
+baseurl: "/technocore-guide-ur"
+
+include:
+  - _pages
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope: { path: "", type: "pages" }
+    values: { layout: default }
+
+markdown: kramdown
+kramdown:
+  input: GFM
